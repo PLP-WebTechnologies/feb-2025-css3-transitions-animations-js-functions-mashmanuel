@@ -1,23 +1,59 @@
-# CSS3 Transitions, Animations, and Advanced JavaScript Functions
+# Interactive Webpage with Animations & Local Storage
 
-## Objectives
+A demonstration of CSS animations, JavaScript event handling, and browser localStorage for persistent user preferences.
 
-Create smooth CSS transitions and animations.
-Use JavaScript functions for dynamic behavior.
-Implement local storage for data persistence.
+## Features
 
-## Instructions
-Add CSS animations to elements like buttons or images.
+- **CSS Animations & Transitions**:
+  - Smooth button hover/active effects
+  - Rotate animation on click
+  - Bounce animation on save
+  - Theme transition effects
 
->[!NOTE]
-> - Write a JavaScript function that:
-> - Stores and retrieves user preferences using localStorage.
-> - Implements an animation triggered by user actions.
+- **JavaScript Functionality**:
+  - Dynamic animation triggering
+  - User preference management
+  - Event-driven interactions
 
-## Tasks
+- **Data Persistence**:
+  - Saves username and theme preferences
+  - Automatically loads preferences on page visit
+  - Maintains state between sessions
 
-Create a CSS animation.
-Store data in localStorage.
-Apply JavaScript to trigger animations.
+## File Structure
+project/
+├── index.html # Main HTML structure
+├── styles.css # All CSS styles and animations
+└── script.js # JavaScript functionality
 
-Happy Coding! 💻✨
+## Installation & Usage
+
+1. Clone or download the repository
+2. Open `index.html` in any modern web browser
+3. Interact with the elements:
+   - Enter a username and select a theme
+   - Click "Save Preferences" to persist your choices
+   - Click the blue box to trigger rotation animation
+
+## Technologies Used
+
+- HTML5
+- CSS3 (Animations, Transitions)
+- JavaScript (DOM Manipulation, Event Handling)
+- Web Storage API (localStorage)
+
+## Customization
+
+To modify the project:
+
+- Edit `styles.css` to change animations or styling
+- Update `script.js` to alter interaction logic
+- Add more theme options in both CSS and JavaScript
+
+## Browser Support
+
+Tested and works on:
+- Chrome (latest)
+- Firefox (latest)
+- Edge (latest)
+- Safari (latest)
