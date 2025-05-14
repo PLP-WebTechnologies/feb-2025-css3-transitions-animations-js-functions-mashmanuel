@@ -22,9 +22,9 @@ A demonstration of CSS animations, JavaScript event handling, and browser localS
 
 ## File Structure
 project/
-├── index.html # Main HTML structure
-├── styles.css # All CSS styles and animations
-└── script.js # JavaScript functionality
+- index.html # Main HTML structure
+- styles.css # All CSS styles and animations
+- script.js # JavaScript functionality
 
 ## Installation & Usage
 
